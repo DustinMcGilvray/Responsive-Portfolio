@@ -6,7 +6,7 @@ header {
    height: 100px;
    background: white;
    border-bottom: 2.5px solid black;
-   margin-bottom: 50px;
+   margin: 50px;
 }
 
 h1 {
@@ -160,3 +160,39 @@ p{
    line-height: 75px;
 }
 
+/* Media Query 980px*/
+@media screen and (max-width:980px) {
+    header{
+        width: 100%;
+        margin: auto;
+    } 
+    #nav{
+        width: 30%;
+       
+    }
+}
+
+/* Media Query 768px*/
+@media screen and (max-width:768px) {
+    header{
+        width: 100%;
+        margin: auto;   
+    } 
+    #nav{
+        width: 30%;
+       
+}
+}
+
+/* Media Query 640px*/
+@media screen and (max-width:640px) {
+    header{
+        width: 100%;
+        margin: auto;
+        position: static;
+    } 
+    #nav{
+        width: 30%;
+        
+}
+}
